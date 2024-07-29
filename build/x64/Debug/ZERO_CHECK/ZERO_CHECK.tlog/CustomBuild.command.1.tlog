@@ -1,0 +1,10 @@
+^C:\DEV-C++\DOS\BUILD\CMAKEFILES\864C8D4BD0689480B6D987638EFFA539\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev-c++/dos/source -BC:/dev-c++/dos/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev-c++/dos/build/DosApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

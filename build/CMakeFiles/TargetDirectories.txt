@@ -1,0 +1,3 @@
+C:/dev-c++/dos/build/CMakeFiles/DosAppBinary.dir
+C:/dev-c++/dos/build/CMakeFiles/ALL_BUILD.dir
+C:/dev-c++/dos/build/CMakeFiles/ZERO_CHECK.dir
